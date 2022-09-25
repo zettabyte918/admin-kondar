@@ -49,8 +49,8 @@ const Imprimer = () => {
       <div className="flex py-2 justify-center space-x-2 items-center">
         <img width={100} src={Logo.src}></img>
         <div className="text-center">
-          <h1 className=" text-4xl font-bold text-red-500">KONDAR SCHOOL</h1>
-          <h2 className="text-gray-500">CENTER D&apos;ASSISTANCE SCOLAIRE</h2>
+          <h1 className=" text-4xl font-bold text-sky-500">KONDAR SCHOOL</h1>
+          <h2 className="text-amber-500">CENTER DE FORMATION SCOLAIRE</h2>
         </div>
       </div>
       <div className="py-5"></div>

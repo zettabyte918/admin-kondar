@@ -143,11 +143,11 @@ export function GlobalLayout({ children }) {
                 </div>
               </Transition.Child>
               <div className="flex flex-col px-4">
-                <span className=" font-bold text-indigo-200 text-3xl">
-                  KONDAR
+                <span className=" font-bold text-indigo-200 text-2xl">
+                  KONDAR SCHOOL
                 </span>
                 <span className="font-semibold text-gray-300 text-xs">
-                  CENTER D&apos;ASSISTANCE SCOLAIRE
+                  CENTER DE FORMATION SCOLAIRE
                 </span>
               </div>
               <div className="mt-5 flex-1 h-0 overflow-y-auto">
@@ -226,8 +226,8 @@ export function GlobalLayout({ children }) {
                 enterFrom="-translate-x-4 opacity-0"
                 enterTo="-translate-x-0 opacity-100"
               >
-                <span className=" font-bold text-gray-200 text-3xl">
-                  KONDAR
+                <span className=" font-bold text-gray-200 text-2xl">
+                  KONDAR SCHOOL
                 </span>
               </Transition>
 
@@ -240,7 +240,7 @@ export function GlobalLayout({ children }) {
                 enterTo="translate-y-0 opacity-100"
               >
                 <span className="font-semibold text-indigo-300 text-xs">
-                  CENTER D&apos;ASSISTANCE SCOLAIRE
+                  CENTER DE FORMATION SCOLAIRE
                 </span>
               </Transition>
             </div>

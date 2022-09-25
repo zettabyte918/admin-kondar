@@ -47,7 +47,7 @@ export default function Signin() {
         <div className="max-w-md w-full space-y-8">
           <div>
             <img
-              className="mx-auto h-28 w-auto"
+              className="mx-auto h-60 w-auto"
               src={Logo.src}
               alt="Workflow"
             />

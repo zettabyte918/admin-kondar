@@ -115,7 +115,7 @@ const EnseignantsTable = () => {
                     </td>
                     <td className="whitespace-nowrap px-3 py-4 text-sm">
                       <span className="text-indigo-50 font-medium bg-indigo-600 py-0.5 px-2 rounded-md">
-                        les-experts-{prof.tel}
+                        kondarschool-{prof.tel}
                       </span>
                     </td>
                     <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">

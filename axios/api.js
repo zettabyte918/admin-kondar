@@ -403,7 +403,7 @@ export const ApiContext = ({ children }) => {
 
   const fetchGrades = async () => {
     return await api.get(
-      `${process.env.NEXT_PUBLIC_STRAPI_BACKEND_API_URL}/grades`
+      `${process.env.NEXT_PUBLIC_STRAPI_BACKEND_API_URL}/grades?pagination[pageSize]=40`
     );
   };
 
