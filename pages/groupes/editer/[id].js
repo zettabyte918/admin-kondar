@@ -107,7 +107,7 @@ const AjouterGroupes = () => {
           </div>
         </div>
         <div className="space-x-1 md:space-x-2">
-          <button>
+          {/* <button>
             <a
               type="button"
               className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
@@ -124,7 +124,7 @@ const AjouterGroupes = () => {
               <CheckIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
               Payé
             </a>
-          </button>
+          </button> */}
           <button>
             <a
               type="button"

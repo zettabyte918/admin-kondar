@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState, Fragment } from "react";
 import { useApi } from "../../../axios";
 import { useSession } from "next-auth/react";
-import Logo from "../../../public/logo2.png";
+import Logo from "../../../public/logo.png";
 import { Transition } from "@headlessui/react";
 import { PrinterIcon, ArrowLeftIcon } from "@heroicons/react/solid";
 import Head from "next/head";
@@ -44,12 +44,12 @@ const Imprimer = () => {
   return (
     <>
       <Head>
-        <title>{studentData?.name_eleve} || LES EXPERTS</title>
+        <title>{studentData?.name_eleve} || KONDAR SCHOOL</title>
       </Head>
       <div className="flex py-2 justify-center space-x-2 items-center">
         <img width={100} src={Logo.src}></img>
         <div className="text-center">
-          <h1 className=" text-4xl font-bold text-red-500">LES EXPERTS</h1>
+          <h1 className=" text-4xl font-bold text-red-500">KONDAR SCHOOL</h1>
           <h2 className="text-gray-500">CENTER D&apos;ASSISTANCE SCOLAIRE</h2>
         </div>
       </div>

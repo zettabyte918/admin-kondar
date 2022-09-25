@@ -144,7 +144,7 @@ export function GlobalLayout({ children }) {
               </Transition.Child>
               <div className="flex flex-col px-4">
                 <span className=" font-bold text-indigo-200 text-3xl">
-                  LES EXPERTS
+                  KONDAR
                 </span>
                 <span className="font-semibold text-gray-300 text-xs">
                   CENTER D&apos;ASSISTANCE SCOLAIRE
@@ -227,7 +227,7 @@ export function GlobalLayout({ children }) {
                 enterTo="-translate-x-0 opacity-100"
               >
                 <span className=" font-bold text-gray-200 text-3xl">
-                  LES EXPERTS
+                  KONDAR
                 </span>
               </Transition>
 

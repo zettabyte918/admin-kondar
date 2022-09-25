@@ -47,7 +47,7 @@ export default function Signin() {
         <div className="max-w-md w-full space-y-8">
           <div>
             <img
-              className="mx-auto h-20 w-auto"
+              className="mx-auto h-28 w-auto"
               src={Logo.src}
               alt="Workflow"
             />
@@ -55,7 +55,7 @@ export default function Signin() {
               connectez-vous à votre compte
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
-              Panneau d&apos;administration Les Expert
+              Panneau d&apos;administration Kondar school
             </p>
           </div>
           <form className="mt-8 space-y-6" action="#" method="POST">

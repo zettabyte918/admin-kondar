@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "appdev": "(cd ../api-les-experts && yarn develop) & next dev",
+    "appdev": "(cd ../api-kondar && yarn develop) & next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
