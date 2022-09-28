@@ -5,7 +5,7 @@
     "dev": "next dev",
     "appdev": "(cd ../api-kondar && yarn develop) & next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3100",
     "lint": "next lint"
   },
   "dependencies": {
